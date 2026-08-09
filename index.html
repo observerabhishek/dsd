@@ -1,0 +1,1613 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>DSD | Delhi Skill Development</title>
+
+    <meta
+      name="description"
+      content="Delhi Skill Development offers practical computer, digital, accounting, design and professional skill development courses in Delhi."
+    />
+
+    <meta
+      name="keywords"
+      content="Delhi Skill Development, DSD Delhi, computer courses Delhi, skill development Delhi, DCA, ADCA, MDCA, Tally, Web Designing, Advanced Excel"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+    <div class="top-bar">
+      <div class="top-social">
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      <div class="top-message">
+        <i class="fa-solid fa-graduation-cap"></i>
+
+        Practical Training • Career-Focused Skills • Expert Mentors
+      </div>
+
+      <div class="top-arrows">
+        <span>←</span>
+        <span>→</span>
+      </div>
+    </div>
+
+    <!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+    <header class="main-header">
+      <div class="navbar">
+        <!-- LOGO -->
+
+        <a href="#home" class="logo">
+          <img src="logo.png" alt="DSD - Delhi Skill Development" />
+        </a>
+
+        <!-- DESKTOP NAV -->
+
+        <nav class="desktop-nav">
+          <a href="#home" class="active"> Home </a>
+
+          <a href="#courses"> Courses </a>
+
+          <a href="#about"> About </a>
+
+          <a href="#mentor"> Mentor </a>
+
+          <a href="#reviews"> Reviews </a>
+
+          <a href="#faq"> FAQ </a>
+
+          <a href="#contact"> Contact </a>
+        </nav>
+
+        <!-- NAV ACTIONS -->
+
+        <div class="nav-actions">
+          <button
+            class="icon-button"
+            onclick="scrollToCourses()"
+            aria-label="Search"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <a href="tel:+918527023462" class="icon-button" aria-label="Call">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+
+          <a
+            href="https://wa.me/918527023462"
+            target="_blank"
+            class="icon-button whatsapp-icon"
+            aria-label="WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <button
+            class="mobile-toggle"
+            onclick="toggleMobileMenu()"
+            aria-label="Menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- MOBILE MENU -->
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+
+        <a href="#courses">Courses</a>
+
+        <a href="#about">About</a>
+
+        <a href="#mentor">Mentor</a>
+
+        <a href="#reviews">Reviews</a>
+
+        <a href="#faq">FAQ</a>
+
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- =====================================================
+     HERO
+===================================================== -->
+
+    <section id="home" class="hero-section">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="bg-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-bolt"></i>
+
+          Learn • Practice • Grow
+        </div>
+
+        <h1>
+          Build Skills.
+          <span>Build Your Future.</span>
+        </h1>
+
+        <p>
+          Delhi Skill Development provides practical, career-focused training in
+          computers, digital technology, accounting, design and professional
+          skills.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#courses" class="primary-button">
+            Explore Courses
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <a
+            href="https://wa.me/918527023462"
+            target="_blank"
+            class="secondary-button"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Talk to Us
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>120+</strong>
+            <span>Skill Courses</span>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <span>Practical Focus</span>
+          </div>
+
+          <div>
+            <strong>Expert</strong>
+            <span>Mentors</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <span>Scroll to explore</span>
+
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     COURSE INTRO
+===================================================== -->
+
+    <section id="courses" class="section courses-section">
+      <div class="section-heading">
+        <span class="small-heading"> WHAT WE OFFER </span>
+
+        <h2>
+          Learn Skills That
+          <span>Move You Forward</span>
+        </h2>
+
+        <p>
+          Choose from practical courses designed to help you develop useful
+          technical, digital and professional skills.
+        </p>
+      </div>
+
+      <!-- CATEGORY FILTER -->
+
+      <div class="category-filter">
+
+        <button class="filter-btn" data-filter="diploma">Diploma</button>
+
+        <button class="filter-btn" data-filter="computer">Computer</button>
+
+        <button class="filter-btn" data-filter="accounting">Accounting</button>
+
+        <button class="filter-btn" data-filter="design">Design</button>
+
+        <button class="filter-btn" data-filter="skills">Skills</button>
+      </div>
+
+      <!-- COURSE GRID -->
+
+      <div class="course-grid">
+        <!-- DCA -->
+
+        <article class="course-card diploma">
+          <div class="course-icon blue">
+            <i class="fa-solid fa-computer"></i>
+          </div>
+
+          <span class="course-tag"> DIPLOMA </span>
+
+          <h3>DCA</h3>
+
+          <p>
+            Diploma in Computer Application with practical computer training.
+          </p>
+
+          <div class="course-info">
+            <span>
+              <i class="fa-regular fa-clock"></i>
+              6 Months
+            </span>
+          </div>
+
+          <a
+            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20DCA"
+            target="_blank"
+            class="course-link"
+          >
+            Admission
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- ADCA -->
+
+        <article class="course-card diploma">
+          <div class="course-icon purple">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+
+          <span class="course-tag"> DIPLOMA </span>
+
+          <h3>ADCA</h3>
+
+          <p>
+            Advanced Diploma covering office, accounting, design and web skills.
+          </p>
+
+          <div class="course-info">
+            <span>
+              <i class="fa-regular fa-clock"></i>
+              12 Months
+            </span>
+          </div>
+
+          <a
+            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20ADCA"
+            target="_blank"
+            class="course-link"
+          >
+            Admission
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- MDCA -->
+
+        <article class="course-card diploma">
+          <div class="course-icon orange">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <span class="course-tag"> DIPLOMA </span>
+
+          <h3>MDCA</h3>
+
+          <p>
+            Master Diploma covering programming, web, design, accounting and
+            networking.
+          </p>
+
+          <div class="course-info">
+            <span>
+              <i class="fa-regular fa-clock"></i>
+              18 Months
+            </span>
+          </div>
+
+          <a
+            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20MDCA"
+            target="_blank"
+            class="course-link"
+          >
+            Admission
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- OFFICE -->
+
+        <article class="course-card computer">
+          <div class="course-icon green">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
+
+          <span class="course-tag"> COMPUTER </span>
+
+          <h3>Office Automation</h3>
+
+          <p>
+            Word, Excel, PowerPoint and essential office productivity skills.
+          </p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- WEB -->
+
+        <article class="course-card computer">
+          <div class="course-icon cyan">
+            <i class="fa-solid fa-code"></i>
+          </div>
+
+          <span class="course-tag"> COMPUTER </span>
+
+          <h3>Web Designing</h3>
+
+          <p>Learn HTML, CSS and JavaScript to build modern websites.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- SYSTEM -->
+
+        <article class="course-card computer">
+          <div class="course-icon dark">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+
+          <span class="course-tag"> COMPUTER </span>
+
+          <h3>System Administration</h3>
+
+          <p>Learn hardware, networking and operating system management.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- TALLY -->
+
+        <article class="course-card accounting">
+          <div class="course-icon green">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+
+          <span class="course-tag"> ACCOUNTING </span>
+
+          <h3>Tally Prime + GST</h3>
+
+          <p>Accounting, GST billing and inventory management training.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- EXCEL -->
+
+        <article class="course-card accounting">
+          <div class="course-icon blue">
+            <i class="fa-solid fa-chart-column"></i>
+          </div>
+
+          <span class="course-tag"> ACCOUNTING </span>
+
+          <h3>Advanced Excel</h3>
+
+          <p>Formulas, dashboards, reports and data analysis.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- DESIGN -->
+
+        <article class="course-card design">
+          <div class="course-icon pink">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+
+          <span class="course-tag"> DESIGN </span>
+
+          <h3>Desktop Publishing</h3>
+
+          <p>Learn graphic design using professional design software.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- SKILLS -->
+
+        <article class="course-card skills">
+          <div class="course-icon orange">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+
+          <span class="course-tag"> SKILLS </span>
+
+          <h3>Smart English</h3>
+
+          <p>Improve spoken English, communication and confidence.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- PERSONALITY -->
+
+        <article class="course-card skills">
+          <div class="course-icon purple">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+
+          <span class="course-tag"> SKILLS </span>
+
+          <h3>Personality Development</h3>
+
+          <p>Build confidence, communication and professional personality.</p>
+
+          <a href="#contact" class="course-link">
+            Enquire Now
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     ABOUT
+===================================================== -->
+
+    <section id="about" class="about-modern">
+      <div class="about-image">
+        <img src="delhiskilldevelopment.png" alt="Delhi Skill Development" />
+
+        
+      </div>
+
+      <div class="about-content">
+        <span class="small-heading"> ABOUT DSD </span>
+
+        <h2>
+          Skills Today.
+          <span>Opportunities Tomorrow.</span>
+        </h2>
+
+        <p>
+          Delhi Skill Development is focused on helping learners develop
+          practical technical, digital and professional skills.
+        </p>
+
+        <p>
+          Our training approach combines structured learning, practical
+          exercises and career-focused guidance to help students become more
+          confident and job-ready.
+        </p>
+
+        <div class="about-points">
+          <div>
+            <i class="fa-solid fa-circle-check"></i>
+            Experienced Mentors
+          </div>
+
+          <div>
+            <i class="fa-solid fa-circle-check"></i>
+            Practical Training
+          </div>
+
+          <div>
+            <i class="fa-solid fa-circle-check"></i>
+            Career Guidance
+          </div>
+
+          <div>
+            <i class="fa-solid fa-circle-check"></i>
+            Industry-Oriented Courses
+          </div>
+        </div>
+
+        <a href="#contact" class="primary-button">
+          Know More
+
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     WHY CHOOSE US
+===================================================== -->
+
+    <section class="why-section">
+      <div class="section-heading">
+        <span class="small-heading"> WHY DSD </span>
+
+        <h2>
+          Learn More.
+          <span>Do More.</span>
+        </h2>
+
+        <p>
+          We focus on skills that students can actually use in their careers.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fa-solid fa-laptop"></i>
+          </div>
+
+          <h3>Practical Learning</h3>
+
+          <p>
+            Learn through practical exercises instead of only theoretical
+            lessons.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+
+          <h3>Student Focused</h3>
+
+          <p>Training designed around student understanding and progress.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fa-solid fa-chalkboard-user"></i>
+          </div>
+
+          <h3>Expert Mentors</h3>
+
+          <p>
+            Learn from mentors who focus on practical and career-oriented
+            learning.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <h3>Career Guidance</h3>
+
+          <p>
+            Get guidance to understand your skills and career opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     MENTOR
+===================================================== -->
+
+    <section id="mentor" class="mentor-section">
+      <div class="mentor-content">
+        <span class="small-heading"> YOUR MENTOR </span>
+
+        <h2>
+          Learn With
+          <span>Guidance & Support</span>
+        </h2>
+
+        <p>
+          Our mentors focus on making complex concepts simple through practical
+          examples, exercises and real-world learning.
+        </p>
+
+        <div class="mentor-points">
+          <div>
+            <i class="fa-solid fa-check"></i>
+            Practical explanations
+          </div>
+
+          <div>
+            <i class="fa-solid fa-check"></i>
+            Doubt support
+          </div>
+
+          <div>
+            <i class="fa-solid fa-check"></i>
+            Career guidance
+          </div>
+        </div>
+      </div>
+
+      <div class="mentor-image">
+        <img src="mentor.jpg" alt="DSD Mentor" />
+      </div>
+    </section>
+
+    <!-- =====================================================
+     TESTIMONIALS
+===================================================== -->
+
+    <section id="reviews" class="reviews-section">
+      <div class="section-heading">
+        <span class="small-heading"> STUDENT REVIEWS </span>
+
+        <h2>
+          What Students
+          <span>Say About Us</span>
+        </h2>
+      </div>
+
+      <div class="reviews-wrapper">
+        <div class="reviews-track">
+          <div class="review-card">
+            <div class="review-top">
+              <div class="avatar">RS</div>
+
+              <div>
+                <strong>Rohit</strong>
+                <span>Web Designing</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              The practical training helped me understand web designing much
+              better.
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="avatar">NG</div>
+
+              <div>
+                <strong>Neha</strong>
+                <span>ADCA</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>The teachers explain everything clearly and patiently.</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="avatar">AV</div>
+
+              <div>
+                <strong>Aman</strong>
+                <span>Tally + GST</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>I learned accounting and GST practically and easily.</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="avatar">SK</div>
+
+              <div>
+                <strong>Sumit</strong>
+                <span>Advanced Excel</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              The Excel course helped me understand dashboards and formulas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     FAQ
+===================================================== -->
+
+    <!-- =====================================================
+     DSD FAQ SECTION
+===================================================== -->
+
+    <section id="faq" class="dsd-faq-section">
+      <div class="dsd-faq-container">
+        <!-- HEADER -->
+        <div class="dsd-faq-header">
+          <span class="dsd-faq-label"> DSD SUPPORT </span>
+
+          <h2>
+            Frequently Asked<br />
+            <span>Questions</span>
+          </h2>
+
+          <p>
+            Find answers to common questions about our courses, admission,
+            training and career support.
+          </p>
+        </div>
+
+        <!-- FAQ BODY -->
+
+        <div class="dsd-faq-layout">
+          <!-- LEFT CATEGORIES -->
+
+          <div class="dsd-faq-categories">
+            <button class="faq-category active" data-category="admission">
+              Admission & Courses
+            </button>
+
+            <button class="faq-category" data-category="courses">
+              Course Content & Training
+            </button>
+
+            <button class="faq-category" data-category="fees">
+              Fees & Payment
+            </button>
+
+            <button class="faq-category" data-category="certificate">
+              Certification
+            </button>
+
+            <button class="faq-category" data-category="career">
+              Career Guidance
+            </button>
+
+            <button class="faq-category" data-category="support">
+              Student Support
+            </button>
+
+            <button class="faq-category" data-category="timing">
+              Class Timing
+            </button>
+
+            <button class="faq-category" data-category="contact">
+              Contact & Admission
+            </button>
+          </div>
+
+          <!-- RIGHT FAQ -->
+
+          <div class="dsd-faq-list">
+            <!-- ================= ADMISSION ================= -->
+
+            <div class="faq-group active" data-group="admission">
+              <div class="dsd-faq-item active">
+                <button class="dsd-faq-question">
+                  <span> What courses are available at DSD? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Delhi Skill Development offers courses including DCA, ADCA,
+                    MDCA, Office Automation, Web Designing, System
+                    Administration, Tally Prime with GST, Advanced Excel,
+                    Desktop Publishing, Smart English and Personality
+                    Development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Who can join DSD courses? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Students, beginners, job seekers and learners who want to
+                    improve their computer and professional skills can join
+                    suitable DSD courses.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> How can I take admission? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    You can contact DSD through phone or WhatsApp to enquire
+                    about the course, batch availability and admission process.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> What is the duration of DCA, ADCA and MDCA? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    DCA is a 6-month course, ADCA is a 12-month course and MDCA
+                    is an 18-month course.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= COURSES ================= -->
+
+            <div class="faq-group" data-group="courses">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Do the courses include practical training? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. DSD focuses on practical and hands-on learning so
+                    students can apply what they learn.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> What will I learn in Web Designing? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Students can learn website development fundamentals
+                    including HTML, CSS and JavaScript along with practical
+                    website projects.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Is Tally Prime with GST included? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Tally Prime with GST is available as a professional
+                    accounting course covering accounting, GST billing and
+                    related practical work.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Is Advanced Excel available? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. Advanced Excel training covers formulas, reports,
+                    dashboards and data analysis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= FEES ================= -->
+
+            <div class="faq-group" data-group="fees">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> How much are the course fees? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Course fees depend on the selected program and duration.
+                    Contact DSD for the latest fee structure.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Can I pay the course fee in installments? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Installment or payment options may depend on the selected
+                    course. Please contact DSD for current options.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Are there any additional charges? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Any applicable additional charges, study material or
+                    certification fees can be confirmed during admission.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= CERTIFICATE ================= -->
+
+            <div class="faq-group" data-group="certificate">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Will I receive a certificate? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Certificate availability depends on the course and its
+                    completion requirements. Please confirm the details for your
+                    selected program.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> When will I receive my certificate? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Certificate issuance details and timing can be confirmed by
+                    the institute after successful course completion.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= CAREER ================= -->
+
+            <div class="faq-group" data-group="career">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Does DSD provide career guidance? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. DSD focuses on career-oriented learning and provides
+                    guidance to help students understand their skills and career
+                    options.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Does DSD provide placement assistance? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Career and placement guidance may be provided depending on
+                    the course and available opportunities. Contact DSD for
+                    current placement support details.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Can beginners join the courses? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. Several courses are designed for beginners and start
+                    from fundamental concepts before moving to practical skills.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= SUPPORT ================= -->
+
+            <div class="faq-group" data-group="support">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Will I get help if I have doubts? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. Students can ask questions and receive guidance from
+                    trainers during their learning journey.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Can I contact the institute on WhatsApp? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Yes. You can contact DSD through WhatsApp for course
+                    enquiries, admission information and general support.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= TIMING ================= -->
+
+            <div class="faq-group" data-group="timing">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> What are the class timings? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Class timings depend on the course and available batches.
+                    Contact DSD to know the latest batch timings.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Are different batches available? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Batch availability can vary according to the course and
+                    current schedule. Please contact the institute for details.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= CONTACT ================= -->
+
+            <div class="faq-group" data-group="contact">
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> How can I contact DSD? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    You can call DSD at +91 8527023462 or contact us through
+                    WhatsApp for course and admission enquiries.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dsd-faq-item">
+                <button class="dsd-faq-question">
+                  <span> Where is DSD located? </span>
+
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="dsd-faq-answer">
+                  <p>
+                    Delhi Skill Development is based in Delhi, India. Contact
+                    the institute for the exact location and directions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     CTA
+===================================================== -->
+
+    <section id="contact" class="cta-section">
+      <div class="cta-content">
+        <span class="small-heading"> START TODAY </span>
+
+        <h2>
+          Ready to Build
+          <span>Your Skills?</span>
+        </h2>
+
+        <p>
+          Take the first step towards learning practical skills for your future.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="tel:+918527023462" class="primary-button">
+            <i class="fa-solid fa-phone"></i>
+
+            Call Now
+          </a>
+
+          <a
+            href="https://wa.me/918527023462"
+            target="_blank"
+            class="secondary-button dark-button"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+
+            WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     FOOTER
+===================================================== -->
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo footer-logo">
+            <img src="delhiskilldevelopment.png" alt="DSD - Delhi Skill Development" />
+
+            <div class="logo-text">
+              <strong>DSD</strong>
+
+              <span> DELHI SKILL DEVELOPMENT </span>
+            </div>
+          </div>
+
+          <p>
+            Practical skill development and career-focused training for modern
+            learners.
+          </p>
+
+          <div class="footer-social">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+
+          <a href="#home"> Home </a>
+
+          <a href="#courses"> Courses </a>
+
+          <a href="#about"> About </a>
+
+          <a href="#mentor"> Mentor </a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Courses</h4>
+
+          <a href="#courses"> DCA </a>
+
+          <a href="#courses"> ADCA </a>
+
+          <a href="#courses"> MDCA </a>
+
+          <a href="#courses"> Web Designing </a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+
+          <a href="tel:+918527023462">
+            <i class="fa-solid fa-phone"></i>
+            +91 8527023462
+          </a>
+
+          <a href="https://wa.me/918527023462">
+            <i class="fa-brands fa-whatsapp"></i>
+            WhatsApp
+          </a>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Delhi, India
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 DSD — Delhi Skill Development. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- =====================================================
+     FLOATING WHATSAPP
+===================================================== -->
+
+    <a
+      href="https://wa.me/918527023462"
+      target="_blank"
+      class="floating-whatsapp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+    <script>
+      /* =====================================================
+   MOBILE MENU
+===================================================== */
+
+      function toggleMobileMenu() {
+        const menu = document.getElementById("mobileMenu");
+
+        menu.classList.toggle("show");
+      }
+
+      /* Close mobile menu after clicking */
+
+      document.querySelectorAll(".mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.getElementById("mobileMenu").classList.remove("show");
+        });
+      });
+
+      /* =====================================================
+   COURSE FILTER
+===================================================== */
+
+      const filterButtons = document.querySelectorAll(".filter-btn");
+
+      const courseCards = document.querySelectorAll(".course-card");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          /* Active button */
+
+          filterButtons.forEach((btn) => {
+            btn.classList.remove("active");
+          });
+
+          button.classList.add("active");
+
+          const filter = button.dataset.filter;
+
+          /* Filter courses */
+
+          courseCards.forEach((card) => {
+            card.style.display = "none";
+            card.classList.remove("visible");
+          });
+
+          courseCards.forEach((card, index) => {
+            if (filter === "all" || card.classList.contains(filter)) {
+              card.style.display = "block";
+
+              setTimeout(() => {
+                card.classList.add("visible");
+              }, index * 40);
+            }
+          });
+        });
+      });
+
+      /* =====================================================
+   DSD FAQ ACCORDION
+===================================================== */
+
+      const faqItems = document.querySelectorAll(".dsd-faq-item");
+
+      faqItems.forEach((item) => {
+        const question = item.querySelector(".dsd-faq-question");
+
+        question.addEventListener("click", () => {
+          const parentGroup = item.closest(".faq-group");
+
+          const isAlreadyOpen = item.classList.contains("active");
+
+          /*
+           * Close all questions
+           * in the current category
+           */
+
+          parentGroup.querySelectorAll(".dsd-faq-item").forEach((otherItem) => {
+            otherItem.classList.remove("active");
+          });
+
+          /*
+           * Open clicked question
+           */
+
+          if (!isAlreadyOpen) {
+            item.classList.add("active");
+          }
+        });
+      });
+
+      /* =====================================================
+   FAQ CATEGORY SWITCH
+===================================================== */
+
+      const faqCategories = document.querySelectorAll(".faq-category");
+
+      const faqGroups = document.querySelectorAll(".faq-group");
+
+      faqCategories.forEach((category) => {
+        category.addEventListener("click", () => {
+          const selectedCategory = category.dataset.category;
+
+          /* Remove active category */
+
+          faqCategories.forEach((button) => {
+            button.classList.remove("active");
+          });
+
+          /* Activate clicked category */
+
+          category.classList.add("active");
+
+          /* Hide all groups */
+
+          faqGroups.forEach((group) => {
+            group.classList.remove("active");
+
+            /*
+             * Close all questions
+             * before switching
+             */
+
+            group.querySelectorAll(".dsd-faq-item").forEach((item) => {
+              item.classList.remove("active");
+            });
+          });
+
+          /* Find selected FAQ group */
+
+          const selectedGroup = document.querySelector(
+            `.faq-group[data-group="${selectedCategory}"]`,
+          );
+
+          if (!selectedGroup) return;
+
+          /*
+           * Small delay allows
+           * category animation to restart
+           */
+
+          requestAnimationFrame(() => {
+            selectedGroup.classList.add("active");
+
+            /*
+             * Automatically open
+             * first question
+             */
+
+            const firstQuestion = selectedGroup.querySelector(".dsd-faq-item");
+
+            if (firstQuestion) {
+              setTimeout(() => {
+                firstQuestion.classList.add("active");
+              }, 250);
+            }
+          });
+        });
+      });
+
+      /* =====================================================
+   SCROLL TO COURSES
+===================================================== */
+
+      function scrollToCourses() {
+        const courses = document.getElementById("courses");
+
+        if (courses) {
+          courses.scrollIntoView({
+            behavior: "smooth",
+          });
+        }
+      }
+
+      /* =====================================================
+   NAVBAR SCROLL EFFECT
+===================================================== */
+
+      const header = document.querySelector(".main-header");
+
+      window.addEventListener("scroll", () => {
+        if (!header) return;
+
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      /* =====================================================
+   SCROLL REVEAL
+===================================================== */
+
+      const revealElements = document.querySelectorAll(
+        ".course-card, " +
+          ".why-card, " +
+          ".about-modern, " +
+          ".mentor-section, " +
+          ".review-card, " +
+          ".dsd-faq-section",
+      );
+
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.12,
+        },
+      );
+
+      revealElements.forEach((element) => {
+        revealObserver.observe(element);
+      });
+
+      /* =====================================================
+   FAQ INITIAL STATE
+===================================================== */
+
+      /*
+       * Make sure the first FAQ category
+       * is visible when the page loads.
+       */
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const firstGroup = document.querySelector(
+          ".faq-group[data-group='admission']",
+        );
+
+        if (firstGroup) {
+          firstGroup.classList.add("active");
+
+          const firstItem = firstGroup.querySelector(".dsd-faq-item");
+
+          if (firstItem) {
+            setTimeout(() => {
+              firstItem.classList.add("active");
+            }, 300);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
