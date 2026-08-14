@@ -130,9 +130,11 @@
           </a>
 
           <button
+            type="button"
             class="mobile-toggle"
-            onclick="toggleMobileMenu()"
-            aria-label="Menu"
+            
+            aria-label="Open menu"
+             aria-expanded="false"
           >
             <i class="fa-solid fa-bars"></i>
           </button>
@@ -3021,13 +3023,9 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="logo footer-logo">
-            <img src="logo.png" alt="DSD - Delhi skills Development" />
+            <img src="delhiskilldevelopment.png" alt="DSD - Delhi skills Development" />
 
-            <div class="logo-text">
-              <strong>DSD</strong>
-
-              <span> DELHI skills DEVELOPMENT </span>
-            </div>
+            
           </div>
 
           <p>
@@ -3117,26 +3115,74 @@
 
     <script>
       /* =====================================================
-   MOBILE MENU
-===================================================== */
+       MOBILE NAVIGATION
+    ===================================================== */
 
-      function toggleMobileMenu() {
-        const menu = document.getElementById("mobileMenu");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const mobileToggle = document.querySelector(".mobile-toggle");
 
-        menu.classList.toggle("show");
+      function closeMobileMenu() {
+        if (!mobileMenu || !mobileToggle) return;
+
+        mobileMenu.classList.remove("show");
+        mobileToggle.setAttribute("aria-expanded", "false");
+        mobileToggle.setAttribute("aria-label", "Open menu");
+
+        const icon = mobileToggle.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-xmark");
+          icon.classList.add("fa-bars");
+        }
       }
 
-      /* Close mobile menu after clicking */
+      function openMobileMenu() {
+        if (!mobileMenu || !mobileToggle) return;
 
-      document.querySelectorAll(".mobile-menu a").forEach((link) => {
-        link.addEventListener("click", () => {
-          document.getElementById("mobileMenu").classList.remove("show");
+        mobileMenu.classList.add("show");
+        mobileToggle.setAttribute("aria-expanded", "true");
+        mobileToggle.setAttribute("aria-label", "Close menu");
+
+        const icon = mobileToggle.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-bars");
+          icon.classList.add("fa-xmark");
+        }
+      }
+
+      if (mobileToggle && mobileMenu) {
+        mobileToggle.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if (mobileMenu.classList.contains("show")) {
+            closeMobileMenu();
+          } else {
+            openMobileMenu();
+          }
         });
-      });
+
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            closeMobileMenu();
+          });
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!mobileMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
+            closeMobileMenu();
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 900) {
+            closeMobileMenu();
+          }
+        });
+      }
 
       /* =====================================================
-   COURSE FILTER
-===================================================== */
+       COURSE FILTER
+    ===================================================== */
 
       const filterButtons = document.querySelectorAll(".filter-btn");
 
@@ -3808,30 +3854,47 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const track = document.querySelector(".reviews-track");
+        if (!track) return;
 
-        if (!track) {
-          return;
-        }
-
-        /* ============================================
-       DUPLICATE ALL REVIEWS
-       This creates the second set needed
-       for the infinite carousel.
-    ============================================ */
-
-        const originalReviews = Array.from(
-          track.querySelectorAll(".review-card"),
-        );
-
+        const originalReviews = Array.from(track.querySelectorAll(".review-card"));
         originalReviews.forEach(function (review) {
           const clone = review.cloneNode(true);
-
+          clone.classList.add("review-clone");
           clone.setAttribute("aria-hidden", "true");
-
           track.appendChild(clone);
         });
+
+        let currentReview = 0;
+        let mobileReviewTimer = null;
+
+        function showMobileReview(index) {
+          originalReviews.forEach(function (review, i) {
+            review.classList.toggle("mobile-active", i === index);
+          });
+        }
+
+        function handleMobileReviews() {
+          if (window.matchMedia("(max-width: 600px)").matches) {
+            showMobileReview(currentReview);
+            if (!mobileReviewTimer) {
+              mobileReviewTimer = setInterval(function () {
+                currentReview = (currentReview + 1) % originalReviews.length;
+                showMobileReview(currentReview);
+              }, 3500);
+            }
+          } else if (mobileReviewTimer) {
+            clearInterval(mobileReviewTimer);
+            mobileReviewTimer = null;
+            originalReviews.forEach(function (review) { review.classList.remove("mobile-active"); });
+          }
+        }
+
+        handleMobileReviews();
+        window.addEventListener("resize", handleMobileReviews);
       });
     </script>
     
-  </body>
+  
+
+</body>
 </html>
