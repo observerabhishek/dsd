@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
 
-    <title>DSD | Delhi Skill Development</title>
+    <title>DSD | Delhi skills Development</title>
 
     <meta
       name="description"
-      content="Delhi Skill Development offers practical computer, digital, accounting, design and professional skill development courses in Delhi."
+      content="Delhi skills Development offers practical computer, digital, accounting, design and professional skills development courses in Delhi."
     />
 
     <meta
       name="keywords"
-      content="Delhi Skill Development, DSD Delhi, computer courses Delhi, skill development Delhi, DCA, ADCA, MDCA, Tally, Web Designing, Advanced Excel"
+      content="Delhi skills Development, DSD Delhi, computer courses Delhi, skills development Delhi, DCA, ADCA, MDCA, Tally, Web Designing, Advanced Excel"
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,11 +43,8 @@
 ===================================================== -->
 
     <div class="top-bar">
+      <!-- LEFT SOCIAL ICONS -->
       <div class="top-social">
-        <a href="#" aria-label="Facebook">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-
         <a href="#" aria-label="Instagram">
           <i class="fa-brands fa-instagram"></i>
         </a>
@@ -57,15 +54,10 @@
         </a>
       </div>
 
+      <!-- CENTER MESSAGE -->
       <div class="top-message">
         <i class="fa-solid fa-graduation-cap"></i>
-
         Practical Training • Career-Focused Skills • Expert Mentors
-      </div>
-
-      <div class="top-arrows">
-        <span>←</span>
-        <span>→</span>
       </div>
     </div>
 
@@ -75,11 +67,31 @@
 
     <header class="main-header">
       <div class="navbar">
-        <!-- LOGO -->
+        <!-- INSTITUTE LOGOS -->
+        <div class="logo-group">
+          <!-- DSD LOGO -->
+          <a
+            href="#courses"
+            class="logo logo-dsd navbar-institute-logo"
+            data-institute="dsd"
+            aria-label="DSD Courses"
+          >
+            <img src="logo.png" alt="DSD - Delhi Skill Development" />
+          </a>
 
-        <a href="#home" class="logo">
-          <img src="logo.png" alt="DSD - Delhi Skill Development" />
-        </a>
+          <!-- DIVIDER -->
+          <div class="logo-divider"></div>
+
+          <!-- DCIIM LOGO -->
+          <a
+            href="#courses"
+            class="logo logo-dciim navbar-institute-logo"
+            data-institute="dciim"
+            aria-label="DCIIM Courses"
+          >
+            <img src="dciim-logo.png" alt="DCIIM Computer Institute" />
+          </a>
+        </div>
 
         <!-- DESKTOP NAV -->
 
@@ -97,19 +109,13 @@
           <a href="#faq"> FAQ </a>
 
           <a href="#contact"> Contact </a>
+          <!-- Moving indicator -->
+          <span class="nav-indicator"></span>
         </nav>
 
         <!-- NAV ACTIONS -->
 
         <div class="nav-actions">
-          <button
-            class="icon-button"
-            onclick="scrollToCourses()"
-            aria-label="Search"
-          >
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-
           <a href="tel:+918527023462" class="icon-button" aria-label="Call">
             <i class="fa-solid fa-phone"></i>
           </a>
@@ -153,399 +159,1822 @@
     </header>
 
     <!-- =====================================================
-     HERO
+     HERO VIDEO SLIDER
 ===================================================== -->
 
     <section id="home" class="hero-section">
-      <video class="hero-video" autoplay muted loop playsinline>
-        <source src="bg-video.mp4" type="video/mp4" />
-      </video>
+      <!-- =================================================
+       SLIDE 1 — EXISTING VIDEO
+  ================================================== -->
 
-      <div class="hero-overlay"></div>
+      <div class="hero-slide active">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="bg-video.mp4" type="video/mp4" />
+        </video>
 
-      <div class="hero-content">
-        <div class="hero-badge">
-          <i class="fa-solid fa-bolt"></i>
+        <div class="hero-overlay"></div>
 
-          Learn • Practice • Grow
-        </div>
-
-        <h1>
-          Build Skills.
-          <span>Build Your Future.</span>
-        </h1>
-
-        <p>
-          Delhi Skill Development provides practical, career-focused training in
-          computers, digital technology, accounting, design and professional
-          skills.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#courses" class="primary-button">
-            Explore Courses
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-
-          <a
-            href="https://wa.me/918527023462"
-            target="_blank"
-            class="secondary-button"
-          >
-            <i class="fa-brands fa-whatsapp"></i>
-
-            Talk to Us
-          </a>
-        </div>
-
-        <div class="hero-stats">
-          <div>
-            <strong>120+</strong>
-            <span>Skill Courses</span>
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i>
+            Learn • Practice • Grow
           </div>
 
-          <div>
-            <strong>100%</strong>
-            <span>Practical Focus</span>
+          <h1>
+            Build Skills.
+            <span>Build Your Future.</span>
+          </h1>
+
+          <p>
+            Delhi Skill Development provides practical, career-focused training
+            in computers, digital technology, accounting, design and
+            professional skills.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#courses" class="primary-button">
+              Explore Courses
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+              href="https://wa.me/918527023462"
+              target="_blank"
+              rel="noopener"
+              class="secondary-button"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Talk to Us
+            </a>
           </div>
 
-          <div>
-            <strong>Expert</strong>
-            <span>Mentors</span>
+          <div class="hero-stats">
+            <div>
+              <strong>200+</strong>
+              <span>Skill Courses</span>
+            </div>
+
+            <div>
+              <strong>100%</strong>
+              <span>Practical Focus</span>
+            </div>
+
+            <div>
+              <strong>Expert</strong>
+              <span>Mentors</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="hero-scroll">
-        <span>Scroll to explore</span>
+      <!-- =================================================
+       SLIDE 2 — MAKEUP & HAIRSTYLE
+  ================================================== -->
 
-        <i class="fa-solid fa-arrow-down"></i>
+      <div class="hero-slide">
+        <video class="hero-video" muted loop playsinline>
+          <source src="makeup.mp4" type="video/mp4" />
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            BEAUTY & STYLE
+          </div>
+
+          <h1>
+            Learn Makeup.
+            <span>Master Hairstyling.</span>
+          </h1>
+
+          <p>
+            Learn professional makeup and hairstyling techniques through
+            practical hands-on training and expert guidance.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#courses" class="primary-button">
+              Explore Course
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+              href="https://wa.me/918527023462"
+              target="_blank"
+              rel="noopener"
+              class="secondary-button"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Talk to Us
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>Makeup</strong>
+              <span>Training</span>
+            </div>
+
+            <div>
+              <strong>Hair</strong>
+              <span>Styling</span>
+            </div>
+
+            <div>
+              <strong>Practical</strong>
+              <span>Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =================================================
+       SLIDE 3 — LANGUAGES
+  ================================================== -->
+
+      <div class="hero-slide">
+        <video class="hero-video" muted loop playsinline>
+          <source src="languages.mp4" type="video/mp4" />
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-language"></i>
+            LANGUAGE LEARNING
+          </div>
+
+          <h1>
+            Learn Languages.
+            <span>Connect With The World.</span>
+          </h1>
+
+          <p>
+            Improve your speaking, communication and language skills with
+            practical lessons designed for education, career and everyday life.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#courses" class="primary-button">
+              Explore Languages
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+              href="https://wa.me/918527023462"
+              target="_blank"
+              rel="noopener"
+              class="secondary-button"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Talk to Us
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>Speak</strong>
+              <span>Confidently</span>
+            </div>
+
+            <div>
+              <strong>Learn</strong>
+              <span>Languages</span>
+            </div>
+
+            <div>
+              <strong>Grow</strong>
+              <span>Globally</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =================================================
+       SLIDE 4 — ACADEMIC TUITION
+  ================================================== -->
+
+      <div class="hero-slide">
+        <video class="hero-video" muted loop playsinline>
+          <source src="tuition.mp4" type="video/mp4" />
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+            ACADEMIC TUITION
+          </div>
+
+          <h1>
+            Learn Better.
+            <span>Achieve Better Results.</span>
+          </h1>
+
+          <p>
+            Get structured academic tuition, concept-based learning and personal
+            guidance to improve confidence and academic performance.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#courses" class="primary-button">
+              Explore Tuition
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+              href="https://wa.me/918527023462"
+              target="_blank"
+              rel="noopener"
+              class="secondary-button"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Talk to Us
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>Concept</strong>
+              <span>Based Learning</span>
+            </div>
+
+            <div>
+              <strong>Expert</strong>
+              <span>Teachers</span>
+            </div>
+
+            <div>
+              <strong>Better</strong>
+              <span>Results</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
     <!-- =====================================================
-     COURSE INTRO
+     COMPLETE DSD + DCIIM COURSES SECTION
 ===================================================== -->
 
-    <section id="courses" class="section courses-section">
-      <div class="section-heading">
-        <span class="small-heading"> WHAT WE OFFER </span>
+    <section id="courses" class="institute-courses-section">
+      <!-- ================= SECTION HEADER ================= -->
+
+      <div class="courses-main-heading">
+        <span class="courses-small-label"> OUR COURSES </span>
 
         <h2>
-          Learn Skills That
-          <span>Move You Forward</span>
+          Choose Your
+          <span>Learning Path</span>
         </h2>
 
         <p>
-          Choose from practical courses designed to help you develop useful
-          technical, digital and professional skills.
+          Explore practical, career-focused courses offered by Delhi Skill
+          Development and DCIIM.
         </p>
       </div>
 
-      <!-- CATEGORY FILTER -->
+      <!-- =====================================================
+       INSTITUTE SELECTOR
+  ====================================================== -->
 
-      <div class="category-filter">
+      <div class="institute-selector">
+        <!-- DSD LOGO -->
+        <button
+          type="button"
+          class="institute-logo-btn active"
+          data-institute="dsd"
+          aria-label="DSD Courses"
+        >
+          <div class="institute-logo-image">
+            <img src="logo.png" alt="DSD" />
+          </div>
+        </button>
 
-        <button class="filter-btn" data-filter="diploma">Diploma</button>
+        <!-- DCIIM LOGO -->
+        <button
+          type="button"
+          class="institute-logo-btn"
+          data-institute="dciim"
+          aria-label="DCIIM Courses"
+        >
+          <div class="institute-logo-image">
+            <img src="dciim-logo.png" alt="DCIIM" />
+          </div>
+        </button>
+      </div>
+      <!-- =====================================================
+       DSD COURSES
+  ====================================================== -->
 
-        <button class="filter-btn" data-filter="computer">Computer</button>
+      <div
+        class="institute-course-panel active"
+        id="dsdCourses"
+        data-panel="dsd"
+      >
+        <div class="institute-panel-heading">
+          <div>
+            <span class="panel-label"> DSD </span>
 
-        <button class="filter-btn" data-filter="accounting">Accounting</button>
+            <h3>Delhi Skill Development</h3>
 
-        <button class="filter-btn" data-filter="design">Design</button>
+            <p>
+              Build practical skills for education, career and professional
+              growth.
+            </p>
+          </div>
+        </div>
 
-        <button class="filter-btn" data-filter="skills">Skills</button>
+        <!-- DSD CATEGORY NAV -->
+
+        <div class="course-category-nav">
+          <button
+            class="course-category-btn active"
+            data-category="dsd-academic"
+          >
+            <i class="fa-solid fa-graduation-cap"></i>
+            Academic Tuition
+          </button>
+
+          <button class="course-category-btn" data-category="dsd-beauty">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            Makeup & Beauty
+          </button>
+
+          <button class="course-category-btn" data-category="dsd-languages">
+            <i class="fa-solid fa-language"></i>
+            Languages
+          </button>
+
+          <button class="course-category-btn" data-category="dsd-teacher">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            Teacher Training
+          </button>
+
+          <button class="course-category-btn" data-category="dsd-fashion">
+            <i class="fa-solid fa-shirt"></i>
+            Fashion Designing
+          </button>
+        </div>
+
+        <!-- DSD SEARCH -->
+
+        <div class="course-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          <input
+            type="text"
+            id="dsdCourseSearch"
+            placeholder="Search DSD courses..."
+          />
+        </div>
+
+        <!-- =================================================
+         DSD LANGUAGES
+    ================================================== -->
+
+        <div
+          class="course-category-content active"
+          data-content="dsd-languages"
+        >
+          <div class="category-title">
+            <span> LANGUAGE PROGRAMS </span>
+
+            <h3>
+              Learn Languages.
+              <strong>Connect With The World.</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-language"></i>
+              </div>
+
+              <span class="professional-tag"> LANGUAGE </span>
+
+              <h4>English</h4>
+
+              <p>
+                Improve spoken English, grammar, vocabulary and communication.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon red">
+                <i class="fa-solid fa-torii-gate"></i>
+              </div>
+
+              <span class="professional-tag"> INTERNATIONAL </span>
+
+              <h4>Japanese</h4>
+
+              <p>
+                Learn Japanese language fundamentals, speaking and
+                communication.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-earth-europe"></i>
+              </div>
+
+              <span class="professional-tag"> INTERNATIONAL </span>
+
+              <h4>French</h4>
+
+              <p>
+                Learn French vocabulary, grammar, conversation and
+                communication.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-earth-europe"></i>
+              </div>
+
+              <span class="professional-tag"> INTERNATIONAL </span>
+
+              <h4>German</h4>
+
+              <p>
+                Develop German language skills for communication and learning.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+
+              <span class="professional-tag"> INTERNATIONAL </span>
+
+              <h4>Dutch</h4>
+
+              <p>Learn basic Dutch communication and language skills.</p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+
+              <span class="professional-tag"> REGIONAL </span>
+
+              <h4>Regional Languages</h4>
+
+              <p>
+                Develop communication skills in selected Indian regional
+                languages.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-earth-americas"></i>
+              </div>
+
+              <span class="professional-tag"> INTERNATIONAL </span>
+
+              <h4>International Languages</h4>
+
+              <p>Explore additional international language learning options.</p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag"> MORE </span>
+
+              <h4>More Languages</h4>
+
+              <p>
+                Ask our team about additional regional and international
+                languages.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Languages</h4>
+
+              <p>
+                Ask DSD about additional regional and international language
+                programs.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DSD MAKEUP & BEAUTY
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dsd-beauty">
+          <div class="category-title">
+            <span> BEAUTY & PERSONAL CARE </span>
+
+            <h3>
+              Makeup & Beauty
+              <strong>Professional Training</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-scissors"></i>
+              </div>
+              <span class="professional-tag">BEAUTY</span>
+              <h4>Hair Cut</h4>
+              <p>
+                Learn professional haircutting techniques and styling basics.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <span class="professional-tag">BEAUTY</span>
+              <h4>Hair Style</h4>
+              <p>
+                Learn modern hairstyling techniques for different occasions.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-face-smile"></i>
+              </div>
+              <span class="professional-tag">MAKEUP</span>
+              <h4>Makeup</h4>
+              <p>
+                Learn makeup fundamentals, techniques and professional
+                application.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-spa"></i>
+              </div>
+              <span class="professional-tag">BEAUTY</span>
+              <h4>Beautician</h4>
+              <p>Develop practical beautician and personal care skills.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon red">
+                <i class="fa-solid fa-hand-sparkles"></i>
+              </div>
+              <span class="professional-tag">BEAUTY</span>
+              <h4>Nails</h4>
+              <p>
+                Learn nail care, grooming and basic nail styling techniques.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-hand-dots"></i>
+              </div>
+              <span class="professional-tag">ART</span>
+              <h4>Mehndi</h4>
+              <p>Learn traditional and modern mehndi design techniques.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+              </div>
+              <span class="professional-tag">PROFESSIONAL</span>
+              <h4>Cosmetology</h4>
+              <p>
+                Explore professional beauty, skincare and personal care skills.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Beauty Courses</h4>
+
+              <p>
+                Ask DSD about additional beauty, makeup, hair and personal-care
+                training programs.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DSD TEACHER TRAINING
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dsd-teacher">
+          <div class="category-title">
+            <span> EDUCATION </span>
+
+            <h3>
+              Teacher Training
+              <strong>Build Teaching Skills</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-child"></i>
+              </div>
+              <span class="professional-tag">TEACHER TRAINING</span>
+              <h4>NTT</h4>
+              <p>Nursery Teacher Training for early childhood education.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-person-chalkboard"></i>
+              </div>
+              <span class="professional-tag">TEACHER TRAINING</span>
+              <h4>PTT</h4>
+              <p>Primary Teacher Training focused on teaching fundamentals.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <span class="professional-tag">TEACHER TRAINING</span>
+              <h4>CTT</h4>
+              <p>Teacher training focused on classroom and teaching skills.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-children"></i>
+              </div>
+              <span class="professional-tag">EDUCATION</span>
+              <h4>ECCE</h4>
+              <p>Early Childhood Care and Education focused training.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Teacher Training</h4>
+
+              <p>
+                Contact DSD for additional teacher training and education
+                programs.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DSD ACADEMIC TUITION
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dsd-academic">
+          <div class="category-title">
+            <span> ACADEMIC EDUCATION </span>
+
+            <h3>
+              Academic Tuition
+              <strong>Learn With Confidence</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+
+              <span class="professional-tag"> ACADEMIC </span>
+
+              <h4>Academic Tuition</h4>
+
+              <p>
+                Structured academic tuition with concept-based learning and
+                personal guidance.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-calculator"></i>
+              </div>
+
+              <span class="professional-tag"> ACADEMIC </span>
+
+              <h4>Mathematics</h4>
+
+              <p>
+                Build mathematical concepts, problem-solving and confidence.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-flask"></i>
+              </div>
+
+              <span class="professional-tag"> ACADEMIC </span>
+
+              <h4>Science</h4>
+
+              <p>Concept-focused science tuition with structured learning.</p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-book"></i>
+              </div>
+
+              <span class="professional-tag"> ACADEMIC </span>
+
+              <h4>School Support</h4>
+
+              <p>
+                Regular academic support for students and school-level learning.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Academic Courses</h4>
+
+              <p>
+                Additional academic subjects, classes and tuition programs may
+                be available. Contact DSD for details.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DSD FASHION
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dsd-fashion">
+          <div class="category-title">
+            <span> FASHION & DESIGN </span>
+
+            <h3>
+              Fashion Designing
+              <strong>Create Your Style</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-scissors"></i>
+              </div>
+              <span class="professional-tag">FASHION</span>
+              <h4>Sewing Course</h4>
+              <p>
+                Learn sewing techniques, machine handling and garment basics.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-shirt"></i>
+              </div>
+              <span class="professional-tag">FASHION</span>
+              <h4>Fashion Designing</h4>
+              <p>Learn fashion design fundamentals and garment development.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-ruler-combined"></i>
+              </div>
+              <span class="professional-tag">FASHION</span>
+              <h4>Pattern Making</h4>
+              <p>Learn basic pattern development and garment construction.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-store"></i>
+              </div>
+              <span class="professional-tag">FASHION</span>
+              <h4>Boutique Designing</h4>
+              <p>
+                Learn skills related to boutique design and fashion
+                presentation.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-pencil"></i>
+              </div>
+              <span class="professional-tag">FASHION</span>
+              <h4>Fashion Illustration</h4>
+              <p>Develop fashion sketching and design presentation skills.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Fashion Courses</h4>
+
+              <p>
+                Contact DSD for additional fashion, sewing and garment-designing
+                programs.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
       </div>
 
-      <!-- COURSE GRID -->
+      <!-- =====================================================
+       DCIIM COURSES
+  ====================================================== -->
 
-      <div class="course-grid">
-        <!-- DCA -->
+      <div class="institute-course-panel" id="dciimCourses" data-panel="dciim">
+        <div class="institute-panel-heading">
+          <div>
+            <span class="panel-label"> DCIIM </span>
 
-        <article class="course-card diploma">
-          <div class="course-icon blue">
-            <i class="fa-solid fa-computer"></i>
+            <h3>Delhi Computer Institute of IT & Management</h3>
+
+            <p>
+              Computer, programming, accounting, designing, software and
+              hardware training.
+            </p>
           </div>
+        </div>
 
-          <span class="course-tag"> DIPLOMA </span>
+        <!-- DCIIM CATEGORY NAV -->
 
-          <h3>DCA</h3>
-
-          <p>
-            Diploma in Computer Application with practical computer training.
-          </p>
-
-          <div class="course-info">
-            <span>
-              <i class="fa-regular fa-clock"></i>
-              6 Months
-            </span>
-          </div>
-
-          <a
-            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20DCA"
-            target="_blank"
-            class="course-link"
+        <div class="course-category-nav">
+          <button
+            class="course-category-btn active"
+            data-category="dciim-diploma"
           >
-            Admission
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- ADCA -->
-
-        <article class="course-card diploma">
-          <div class="course-icon purple">
-            <i class="fa-solid fa-laptop-code"></i>
-          </div>
-
-          <span class="course-tag"> DIPLOMA </span>
-
-          <h3>ADCA</h3>
-
-          <p>
-            Advanced Diploma covering office, accounting, design and web skills.
-          </p>
-
-          <div class="course-info">
-            <span>
-              <i class="fa-regular fa-clock"></i>
-              12 Months
-            </span>
-          </div>
-
-          <a
-            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20ADCA"
-            target="_blank"
-            class="course-link"
-          >
-            Admission
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- MDCA -->
-
-        <article class="course-card diploma">
-          <div class="course-icon orange">
             <i class="fa-solid fa-graduation-cap"></i>
-          </div>
+            Diploma
+          </button>
 
-          <span class="course-tag"> DIPLOMA </span>
-
-          <h3>MDCA</h3>
-
-          <p>
-            Master Diploma covering programming, web, design, accounting and
-            networking.
-          </p>
-
-          <div class="course-info">
-            <span>
-              <i class="fa-regular fa-clock"></i>
-              18 Months
-            </span>
-          </div>
-
-          <a
-            href="https://wa.me/918527023462?text=Hello%20I%20want%20admission%20in%20MDCA"
-            target="_blank"
-            class="course-link"
-          >
-            Admission
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- OFFICE -->
-
-        <article class="course-card computer">
-          <div class="course-icon green">
-            <i class="fa-solid fa-file-lines"></i>
-          </div>
-
-          <span class="course-tag"> COMPUTER </span>
-
-          <h3>Office Automation</h3>
-
-          <p>
-            Word, Excel, PowerPoint and essential office productivity skills.
-          </p>
-
-          <a href="#contact" class="course-link">
-            Enquire Now
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- WEB -->
-
-        <article class="course-card computer">
-          <div class="course-icon cyan">
+          <button class="course-category-btn" data-category="dciim-programming">
             <i class="fa-solid fa-code"></i>
-          </div>
+            Programming
+          </button>
 
-          <span class="course-tag"> COMPUTER </span>
-
-          <h3>Web Designing</h3>
-
-          <p>Learn HTML, CSS and JavaScript to build modern websites.</p>
-
-          <a href="#contact" class="course-link">
-            Enquire Now
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- SYSTEM -->
-
-        <article class="course-card computer">
-          <div class="course-icon dark">
-            <i class="fa-solid fa-network-wired"></i>
-          </div>
-
-          <span class="course-tag"> COMPUTER </span>
-
-          <h3>System Administration</h3>
-
-          <p>Learn hardware, networking and operating system management.</p>
-
-          <a href="#contact" class="course-link">
-            Enquire Now
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- TALLY -->
-
-        <article class="course-card accounting">
-          <div class="course-icon green">
+          <button class="course-category-btn" data-category="dciim-accounting">
             <i class="fa-solid fa-calculator"></i>
-          </div>
+            Accounting
+          </button>
 
-          <span class="course-tag"> ACCOUNTING </span>
-
-          <h3>Tally Prime + GST</h3>
-
-          <p>Accounting, GST billing and inventory management training.</p>
-
-          <a href="#contact" class="course-link">
-            Enquire Now
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- EXCEL -->
-
-        <article class="course-card accounting">
-          <div class="course-icon blue">
-            <i class="fa-solid fa-chart-column"></i>
-          </div>
-
-          <span class="course-tag"> ACCOUNTING </span>
-
-          <h3>Advanced Excel</h3>
-
-          <p>Formulas, dashboards, reports and data analysis.</p>
-
-          <a href="#contact" class="course-link">
-            Enquire Now
-
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
-
-        <!-- DESIGN -->
-
-        <article class="course-card design">
-          <div class="course-icon pink">
+          <button class="course-category-btn" data-category="dciim-designing">
             <i class="fa-solid fa-pen-nib"></i>
+            Designing
+          </button>
+
+          <button class="course-category-btn" data-category="dciim-software">
+            <i class="fa-solid fa-window-maximize"></i>
+            Software
+          </button>
+
+          <button class="course-category-btn" data-category="dciim-hardware">
+            <i class="fa-solid fa-microchip"></i>
+            Hardware
+          </button>
+        </div>
+
+        <!-- DCIIM SEARCH -->
+
+        <div class="course-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          <input
+            type="text"
+            id="dciimCourseSearch"
+            placeholder="Search DCIIM courses..."
+          />
+        </div>
+
+        <!-- =================================================
+         DCIIM DIPLOMA
+    ================================================== -->
+
+        <div
+          class="course-category-content active"
+          data-content="dciim-diploma"
+        >
+          <div class="category-title">
+            <span> DIPLOMA PROGRAMS </span>
+
+            <h3>
+              Professional Diplomas
+              <strong>Build Strong Foundations</strong>
+            </h3>
           </div>
 
-          <span class="course-tag"> DESIGN </span>
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
 
-          <h3>Desktop Publishing</h3>
+              <span class="professional-tag">18 MONTHS</span>
 
-          <p>Learn graphic design using professional design software.</p>
+              <h4>MDCA</h4>
 
-          <a href="#contact" class="course-link">
-            Enquire Now
+              <p>Master Diploma in Computer Application.</p>
 
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                18 Months
+              </div>
 
-        <!-- SKILLS -->
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
 
-        <article class="course-card skills">
-          <div class="course-icon orange">
-            <i class="fa-solid fa-comments"></i>
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+
+              <span class="professional-tag">12 MONTHS</span>
+
+              <h4>ADCA</h4>
+
+              <p>Advanced Diploma in Computer Application.</p>
+
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                12 Months
+              </div>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-computer"></i>
+              </div>
+
+              <span class="professional-tag">6 MONTHS</span>
+
+              <h4>DCA</h4>
+
+              <p>Diploma in Computer Application.</p>
+
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                6 Months
+              </div>
+
+              <a href="#contact" class="professional-course-link">
+                Enquire Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-file-invoice"></i>
+              </div>
+              <span class="professional-tag">6 MONTHS</span>
+              <h4>DFA</h4>
+              <p>
+                Diploma-focused professional computer and application training.
+              </p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                6 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <span class="professional-tag">3 MONTHS</span>
+              <h4>CCC</h4>
+              <p>Certificate-level computer fundamentals and digital skills.</p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                3 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+              <span class="professional-tag">3 MONTHS</span>
+              <h4>DCP</h4>
+              <p>Practical computer and digital skills training.</p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                3 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon dark">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <span class="professional-tag">18 MONTHS</span>
+              <h4>DCTT</h4>
+              <p>Professional computer and technical training program.</p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                18 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <span class="professional-tag">3 MONTHS</span>
+              <h4>ACT</h4>
+              <p>Application and computer technology training.</p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                3 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <span class="professional-tag">3 MONTHS</span>
+              <h4>CITA</h4>
+              <p>Computer and information technology fundamentals.</p>
+              <div class="course-duration">
+                <i class="fa-regular fa-clock"></i>
+                3 Months
+              </div>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Diploma Courses</h4>
+
+              <p>
+                Contact DCIIM for additional diploma and certificate programs
+                available in the current session.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DCIIM PROGRAMMING
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dciim-programming">
+          <div class="category-title">
+            <span> PROGRAMMING & DEVELOPMENT </span>
+
+            <h3>
+              Programming
+              <strong>Build With Code</strong>
+            </h3>
           </div>
 
-          <span class="course-tag"> SKILLS </span>
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>DSA</h4>
+              <p>Learn data structures and algorithms for problem solving.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <h3>Smart English</h3>
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="professional-tag">WEB</span>
+              <h4>Web Designing</h4>
+              <p>Learn modern website development and frontend fundamentals.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <p>Improve spoken English, communication and confidence.</p>
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>C++</h4>
+              <p>Learn object-oriented programming and C++ fundamentals.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <a href="#contact" class="course-link">
-            Enquire Now
+            <article class="professional-course-card">
+              <div class="professional-icon yellow">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>Python</h4>
+              <p>
+                Learn Python programming from fundamentals to practical
+                projects.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>Java</h4>
+              <p>Learn Java programming and object-oriented concepts.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-        <!-- PERSONALITY -->
+            <article class="professional-course-card">
+              <div class="professional-icon yellow">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>JavaScript</h4>
+              <p>Learn JavaScript for interactive and dynamic websites.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-        <article class="course-card skills">
-          <div class="course-icon purple">
-            <i class="fa-solid fa-user-tie"></i>
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-c"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>C Programming</h4>
+              <p>Build strong programming fundamentals with C.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="professional-tag">WEB</span>
+              <h4>CSS</h4>
+              <p>Learn styling, layouts, responsive design and modern CSS.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="professional-tag">PROGRAMMING</span>
+              <h4>VBScript</h4>
+              <p>Learn scripting fundamentals and practical applications.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="professional-tag">WEB</span>
+              <h4>HTML</h4>
+              <p>Learn HTML structure and build the foundation of websites.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Programming Courses</h4>
+
+              <p>
+                Ask DCIIM about additional programming, development and coding
+                courses.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DCIIM ACCOUNTING
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dciim-accounting">
+          <div class="category-title">
+            <span> ACCOUNTING </span>
+
+            <h3>
+              Accounting Software
+              <strong>Learn Practical Accounting</strong>
+            </h3>
           </div>
 
-          <span class="course-tag"> SKILLS </span>
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-calculator"></i>
+              </div>
+              <span class="professional-tag">ACCOUNTING</span>
+              <h4>Tally Prime</h4>
+              <p>
+                Learn accounting, GST, billing, inventory and business reports.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <h3>Personality Development</h3>
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+              </div>
+              <span class="professional-tag">ACCOUNTING</span>
+              <h4>BUSY</h4>
+              <p>
+                Learn practical accounting and business management software.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <p>Build confidence, communication and professional personality.</p>
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <span class="professional-tag">ACCOUNTING</span>
+              <h4>Marg ERP</h4>
+              <p>Learn business accounting and ERP software fundamentals.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
 
-          <a href="#contact" class="course-link">
-            Enquire Now
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
 
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </article>
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Accounting Courses</h4>
+
+              <p>
+                Contact DCIIM for additional accounting, taxation and business
+                software training.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DCIIM DESIGNING
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dciim-designing">
+          <div class="category-title">
+            <span> DESIGN </span>
+
+            <h3>
+              Designing Courses
+              <strong>Turn Ideas Into Visuals</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon pink">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <span class="professional-tag">DESIGN</span>
+              <h4>Graphic Designing</h4>
+              <p>
+                Learn graphic design principles and professional visual
+                creation.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <span class="professional-tag">DESIGN</span>
+              <h4>DTP</h4>
+              <p>Learn desktop publishing and document design techniques.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-print"></i>
+              </div>
+              <span class="professional-tag">DESIGN</span>
+              <h4>Print Media Designing</h4>
+              <p>
+                Learn designs for print publications and marketing materials.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <span class="professional-tag">DESIGN</span>
+              <h4>Canva</h4>
+              <p>
+                Create social media graphics, presentations and marketing
+                designs.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-photo-film"></i>
+              </div>
+              <span class="professional-tag">DESIGN</span>
+              <h4>Adobe</h4>
+              <p>
+                Learn professional creative tools and digital design workflows.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Designing Courses</h4>
+
+              <p>
+                Contact DCIIM for additional graphic, DTP, print-media and
+                digital-design courses.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DCIIM SOFTWARE
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dciim-software">
+          <div class="category-title">
+            <span> SOFTWARE </span>
+
+            <h3>
+              Software Skills
+              <strong>Master Essential Tools</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-brands fa-windows"></i>
+              </div>
+              <span class="professional-tag">SOFTWARE</span>
+              <h4>Windows</h4>
+              <p>
+                Learn Windows fundamentals, settings and everyday computer use.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+              <span class="professional-tag">SOFTWARE</span>
+              <h4>Operating Systems</h4>
+              <p>
+                Understand operating system fundamentals and system management.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-file-word"></i>
+              </div>
+              <span class="professional-tag">SOFTWARE</span>
+              <h4>MS Office</h4>
+              <p>
+                Learn Word, Excel, PowerPoint and essential office productivity.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <span class="professional-tag">DIGITAL</span>
+              <h4>Internet</h4>
+              <p>
+                Learn internet fundamentals, browsing and digital communication.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Software Courses</h4>
+
+              <p>
+                Ask DCIIM about additional software, office and digital-computer
+                training.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- =================================================
+         DCIIM HARDWARE
+    ================================================== -->
+
+        <div class="course-category-content" data-content="dciim-hardware">
+          <div class="category-title">
+            <span> HARDWARE & TECHNICAL </span>
+
+            <h3>
+              Hardware Courses
+              <strong>Learn Computer Technology</strong>
+            </h3>
+          </div>
+
+          <div class="professional-course-grid">
+            <article class="professional-course-card">
+              <div class="professional-icon blue">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <span class="professional-tag">HARDWARE</span>
+              <h4>CPU</h4>
+              <p>
+                Understand CPU components and computer hardware fundamentals.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon orange">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <span class="professional-tag">HARDWARE</span>
+              <h4>Computer Repairing</h4>
+              <p>
+                Learn computer troubleshooting, repair and hardware maintenance.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon green">
+                <i class="fa-solid fa-computer"></i>
+              </div>
+              <span class="professional-tag">HARDWARE</span>
+              <h4>PC Installation</h4>
+              <p>Learn computer assembly, installation and system setup.</p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card">
+              <div class="professional-icon purple">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <span class="professional-tag">HARDWARE</span>
+              <h4>Computer Wiring</h4>
+              <p>
+                Learn basic computer connections, wiring and hardware setup.
+              </p>
+              <a href="#contact" class="professional-course-link"
+                >Enquire Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </article>
+
+            <article class="professional-course-card more-course-card">
+              <div class="professional-icon cyan">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <span class="professional-tag">MORE COURSES</span>
+
+              <h4>More Hardware Courses</h4>
+
+              <p>
+                Contact DCIIM for additional hardware, repairing, installation
+                and technical training.
+              </p>
+
+              <a href="#contact" class="professional-course-link">
+                Contact Institute
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
-
     <!-- =====================================================
      ABOUT
 ===================================================== -->
 
     <section id="about" class="about-modern">
       <div class="about-image">
-        <img src="delhiskilldevelopment.png" alt="Delhi Skill Development" />
-
-        
+        <img src="delhiskilldevelopment.png" alt="Delhi skills Development" />
       </div>
 
       <div class="about-content">
         <span class="small-heading"> ABOUT DSD </span>
 
         <h2>
-          Skills Today.
+          skills Today.
           <span>Opportunities Tomorrow.</span>
         </h2>
 
         <p>
-          Delhi Skill Development is focused on helping learners develop
+          Delhi skills Development is focused on helping learners develop
           practical technical, digital and professional skills.
         </p>
 
@@ -675,7 +2104,7 @@
         <div class="mentor-points">
           <div>
             <i class="fa-solid fa-check"></i>
-            Practical explanations
+            Experienced teachers
           </div>
 
           <div>
@@ -691,12 +2120,12 @@
       </div>
 
       <div class="mentor-image">
-        <img src="mentor.jpg" alt="DSD Mentor" />
+        <img src="delhiskilldevelopment.png" alt="DSD Mentor" />
       </div>
     </section>
 
     <!-- =====================================================
-     TESTIMONIALS
+     STUDENT REVIEWS
 ===================================================== -->
 
     <section id="reviews" class="reviews-section">
@@ -707,16 +2136,25 @@
           What Students
           <span>Say About Us</span>
         </h2>
+
+        <p>
+          Learn practical skills, grow your confidence and move towards better
+          career opportunities.
+        </p>
       </div>
 
       <div class="reviews-wrapper">
         <div class="reviews-track">
-          <div class="review-card">
+          <!-- =================================================
+           REVIEW 01
+      ================================================== -->
+
+          <article class="review-card">
             <div class="review-top">
-              <div class="avatar">RS</div>
+              <div class="avatar">A</div>
 
               <div>
-                <strong>Rohit</strong>
+                <strong>Aditya</strong>
                 <span>Web Designing</span>
               </div>
             </div>
@@ -724,47 +2162,68 @@
             <div class="stars">★★★★★</div>
 
             <p>
-              The practical training helped me understand web designing much
-              better.
+              I learned HTML, CSS and JavaScript through practical projects.
+              Learning and working together helped me gain confidence, and I got
+              a job as a junior web designer.
             </p>
-          </div>
+          </article>
 
-          <div class="review-card">
+          <!-- =================================================
+           REVIEW 02
+      ================================================== -->
+
+          <article class="review-card">
             <div class="review-top">
-              <div class="avatar">NG</div>
+              <div class="avatar">T</div>
 
               <div>
-                <strong>Neha</strong>
+                <strong>Tushita</strong>
                 <span>ADCA</span>
               </div>
             </div>
 
             <div class="stars">★★★★★</div>
 
-            <p>The teachers explain everything clearly and patiently.</p>
-          </div>
+            <p>
+              ADCA gave me knowledge of computers, MS Office, accounting and
+              practical applications. The teachers explained everything clearly
+              and helped me prepare for my first job.
+            </p>
+          </article>
 
-          <div class="review-card">
+          <!-- =================================================
+           REVIEW 03
+      ================================================== -->
+
+          <article class="review-card">
             <div class="review-top">
-              <div class="avatar">AV</div>
+              <div class="avatar">P</div>
 
               <div>
-                <strong>Aman</strong>
-                <span>Tally + GST</span>
+                <strong>Pratiksha</strong>
+                <span>Tally Prime + GST</span>
               </div>
             </div>
 
             <div class="stars">★★★★★</div>
 
-            <p>I learned accounting and GST practically and easily.</p>
-          </div>
+            <p>
+              I learned Tally Prime, GST, billing and accounting practically.
+              The hands-on practice made it easier to understand real office
+              work. I got an accounting job after completing my course.
+            </p>
+          </article>
 
-          <div class="review-card">
+          <!-- =================================================
+           REVIEW 04
+      ================================================== -->
+
+          <article class="review-card">
             <div class="review-top">
-              <div class="avatar">SK</div>
+              <div class="avatar">N</div>
 
               <div>
-                <strong>Sumit</strong>
+                <strong>Neha</strong>
                 <span>Advanced Excel</span>
               </div>
             </div>
@@ -772,17 +2231,313 @@
             <div class="stars">★★★★★</div>
 
             <p>
-              The Excel course helped me understand dashboards and formulas.
+              I learned Excel formulas, reports, dashboards and data handling.
+              The practical assignments were very useful and helped me use Excel
+              confidently at work.
             </p>
-          </div>
+          </article>
+
+          <!-- =================================================
+           REVIEW 05
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">V</div>
+
+              <div>
+                <strong>Vikas</strong>
+                <span>DCA</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              DCA was a great starting point for me. I learned computer
+              fundamentals, MS Office, internet and practical office work. I
+              became more confident and started working after the course.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 06
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">R</div>
+
+              <div>
+                <strong>Riya</strong>
+                <span>Smart English</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              My communication improved a lot. We learned together, practised
+              conversations and worked on confidence. It helped me perform
+              better in interviews and get a job.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 07
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">A</div>
+
+              <div>
+                <strong>Anjali</strong>
+                <span>Makeup & Beauty</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              The makeup and beauty training was very practical. I learned
+              makeup techniques, beautician skills and client handling. Now I am
+              working with clients and building my own career.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 08
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">P</div>
+
+              <div>
+                <strong>Prabhjot</strong>
+                <span>Cosmetology</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              I really enjoyed learning cosmetology. The practical sessions
+              helped me understand professional beauty services and gave me
+              confidence to work in the beauty industry.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 09
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">M</div>
+
+              <div>
+                <strong>Manish</strong>
+                <span>Python Programming</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Python was taught with practical examples instead of only theory.
+              We learned together, solved problems and built small projects.
+              This helped me prepare for programming interviews.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 10
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">C</div>
+
+              <div>
+                <strong>Chetan</strong>
+                <span>Graphic Designing</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              I learned graphic designing through practical assignments and
+              creative projects. The training helped me improve my portfolio and
+              start taking design work professionally.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 11
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">R</div>
+
+              <div>
+                <strong>Rohit</strong>
+                <span>DSA & C++</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              DSA and C++ helped me improve my problem-solving skills.
+              Practising questions together with other students made learning
+              more interesting and helped me prepare for technical interviews.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 12
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">S</div>
+
+              <div>
+                <strong>Shivani</strong>
+                <span>NTT Teacher Training</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              NTT training helped me understand child development, classroom
+              activities and teaching methods. The practical learning made me
+              confident enough to start my teaching career.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 13
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">N</div>
+
+              <div>
+                <strong>Nitin</strong>
+                <span>Hardware & PC Repairing</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              I learned computer hardware, PC installation, repairing and
+              troubleshooting practically. The hands-on training was very useful
+              and helped me start working in computer repair.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 14
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">A</div>
+
+              <div>
+                <strong>Ankit</strong>
+                <span>BUSY Accounting</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              The BUSY accounting course was practical and easy to understand. I
+              learned billing, accounts and business software and was able to
+              apply the skills in my workplace.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 15
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">Z</div>
+
+              <div>
+                <strong>Zeba</strong>
+                <span>Fashion Designing</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              I learned sewing, fashion designing and garment-related skills.
+              Practical classes helped me understand the work much better and
+              motivated me to start working on my own designs.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 16
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">A</div>
+
+              <div>
+                <strong>Arjun</strong>
+                <span>Java Programming</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Java classes were focused on both concepts and practical coding.
+              We solved problems together and worked on projects. This helped me
+              prepare for job interviews and improve my programming skills.
+            </p>
+          </article>
+
+          <!-- =================================================
+           REVIEW 17
+      ================================================== -->
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="avatar">T</div>
+
+              <div>
+                <strong>Tanya</strong>
+                <span>Japanese Language</span>
+              </div>
+            </div>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+              Learning Japanese here was enjoyable and practical. We practised
+              vocabulary, speaking and conversations together. It helped me
+              become more confident and explore better career opportunities.
+            </p>
+          </article>
         </div>
       </div>
     </section>
-
-    <!-- =====================================================
-     FAQ
-===================================================== -->
-
     <!-- =====================================================
      DSD FAQ SECTION
 ===================================================== -->
@@ -858,7 +2613,7 @@
 
                 <div class="dsd-faq-answer">
                   <p>
-                    Delhi Skill Development offers courses including DCA, ADCA,
+                    Delhi skills Development offers courses including DCA, ADCA,
                     MDCA, Office Automation, Web Designing, System
                     Administration, Tally Prime with GST, Advanced Excel,
                     Desktop Publishing, Smart English and Personality
@@ -1210,7 +2965,7 @@
 
                 <div class="dsd-faq-answer">
                   <p>
-                    Delhi Skill Development is based in Delhi, India. Contact
+                    Delhi skills Development is based in Delhi, India. Contact
                     the institute for the exact location and directions.
                   </p>
                 </div>
@@ -1231,7 +2986,7 @@
 
         <h2>
           Ready to Build
-          <span>Your Skills?</span>
+          <span>Your skills?</span>
         </h2>
 
         <p>
@@ -1266,17 +3021,17 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="logo footer-logo">
-            <img src="delhiskilldevelopment.png" alt="DSD - Delhi Skill Development" />
+            <img src="logo.png" alt="DSD - Delhi skills Development" />
 
             <div class="logo-text">
               <strong>DSD</strong>
 
-              <span> DELHI SKILL DEVELOPMENT </span>
+              <span> DELHI skills DEVELOPMENT </span>
             </div>
           </div>
 
           <p>
-            Practical skill development and career-focused training for modern
+            Practical skills development and career-focused training for modern
             learners.
           </p>
 
@@ -1340,7 +3095,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>© 2026 DSD — Delhi Skill Development. All Rights Reserved.</p>
+        <p>© 2026 DSD — Delhi skills Development. All Rights Reserved.</p>
       </div>
     </footer>
 
@@ -1609,5 +3364,474 @@
         }
       });
     </script>
+    <script>
+      /* =====================================================
+   DSD HERO SLIDER
+   AUTO CHANGE EVERY 4 SECONDS
+===================================================== */
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".hero-slide");
+
+        const dots = document.querySelectorAll(".hero-dot");
+
+        const nextButton = document.querySelector(".hero-next");
+
+        const prevButton = document.querySelector(".hero-prev");
+
+        if (!slides.length) return;
+
+        let currentSlide = 0;
+
+        let autoSlide;
+
+        /* =========================================
+       SHOW SLIDE
+    ========================================= */
+
+        function showSlide(nextSlide) {
+          if (nextSlide >= slides.length) {
+            nextSlide = 0;
+          }
+
+          if (nextSlide < 0) {
+            nextSlide = slides.length - 1;
+          }
+
+          slides.forEach((slide, index) => {
+            slide.classList.remove("active", "exit-left");
+
+            if (index === currentSlide && index !== nextSlide) {
+              slide.classList.add("exit-left");
+            }
+          });
+
+          slides[nextSlide].classList.add("active");
+
+          dots.forEach((dot, index) => {
+            dot.classList.toggle("active", index === nextSlide);
+          });
+
+          currentSlide = nextSlide;
+        }
+
+        /* =========================================
+       NEXT
+    ========================================= */
+
+        function nextSlide() {
+          showSlide(currentSlide + 1);
+        }
+
+        /* =========================================
+       PREVIOUS
+    ========================================= */
+
+        function previousSlide() {
+          showSlide(currentSlide - 1);
+        }
+
+        /* =========================================
+       AUTO SLIDER
+       4 SECONDS
+    ========================================= */
+
+        function startAutoSlide() {
+          clearInterval(autoSlide);
+
+          autoSlide = setInterval(nextSlide, 4000);
+        }
+
+        /* =========================================
+       ARROWS
+    ========================================= */
+
+        nextButton.addEventListener("click", function () {
+          nextSlide();
+
+          startAutoSlide();
+        });
+
+        prevButton.addEventListener("click", function () {
+          previousSlide();
+
+          startAutoSlide();
+        });
+
+        /* =========================================
+       DOTS
+    ========================================= */
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", function () {
+            showSlide(index);
+
+            startAutoSlide();
+          });
+        });
+
+        /* =========================================
+       START
+    ========================================= */
+
+        showSlide(0);
+
+        startAutoSlide();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".hero-slide");
+
+        let currentSlide = 0;
+
+        function showSlide(nextSlide) {
+          if (nextSlide === currentSlide) return;
+
+          /* Remove classes */
+
+          slides.forEach((slide) => {
+            slide.classList.remove("active");
+            slide.classList.remove("exit-left");
+          });
+
+          /* Current slide moves left */
+
+          slides[currentSlide].classList.add("exit-left");
+
+          /* New slide becomes active */
+
+          slides[nextSlide].classList.add("active");
+
+          /* Pause all videos */
+
+          slides.forEach((slide) => {
+            const video = slide.querySelector("video");
+
+            if (video) {
+              video.pause();
+            }
+          });
+
+          /* Play new video's background */
+
+          const newVideo = slides[nextSlide].querySelector("video");
+
+          if (newVideo) {
+            newVideo.currentTime = 0;
+
+            newVideo.play().catch(() => {});
+          }
+
+          currentSlide = nextSlide;
+        }
+
+        /* Start first video */
+
+        const firstVideo = slides[0].querySelector("video");
+
+        if (firstVideo) {
+          firstVideo.play().catch(() => {});
+        }
+
+        /* Change slide every 4 seconds */
+
+        setInterval(function () {
+          let nextSlide = currentSlide + 1;
+
+          if (nextSlide >= slides.length) {
+            nextSlide = 0;
+          }
+
+          showSlide(nextSlide);
+        }, 4000);
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const nav = document.querySelector(".desktop-nav");
+
+        const links = document.querySelectorAll(".desktop-nav a");
+
+        const indicator = document.querySelector(".nav-indicator");
+
+        const sections = document.querySelectorAll("section[id]");
+
+        /* ===============================
+       MOVE LINE
+    =============================== */
+
+        function moveIndicator(link) {
+          if (!link || !indicator) return;
+
+          const linkRect = link.getBoundingClientRect();
+
+          const navRect = nav.getBoundingClientRect();
+
+          indicator.style.left = linkRect.left - navRect.left + "px";
+
+          indicator.style.width = linkRect.width + "px";
+        }
+
+        /* ===============================
+       CLICK
+    =============================== */
+
+        links.forEach((link) => {
+          link.addEventListener("click", function () {
+            links.forEach((item) => {
+              item.classList.remove("active");
+            });
+
+            this.classList.add("active");
+
+            moveIndicator(this);
+          });
+        });
+
+        /* ===============================
+       SCROLL
+    =============================== */
+
+        function updateActiveLink() {
+          let currentSection = "";
+
+          const scrollPosition = window.scrollY + 150;
+
+          sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+
+            const sectionBottom = sectionTop + section.offsetHeight;
+
+            if (
+              scrollPosition >= sectionTop &&
+              scrollPosition < sectionBottom
+            ) {
+              currentSection = section.getAttribute("id");
+            }
+          });
+
+          /* Find matching link */
+
+          links.forEach((link) => {
+            const href = link.getAttribute("href");
+
+            if (href === "#" + currentSection) {
+              links.forEach((item) => {
+                item.classList.remove("active");
+              });
+
+              link.classList.add("active");
+
+              moveIndicator(link);
+            }
+          });
+        }
+
+        window.addEventListener("scroll", updateActiveLink);
+
+        /* ===============================
+       INITIAL POSITION
+    =============================== */
+
+        const initialActive = document.querySelector(".desktop-nav a.active");
+
+        if (initialActive) {
+          moveIndicator(initialActive);
+        }
+
+        /* ===============================
+       RESIZE
+    =============================== */
+
+        window.addEventListener("resize", function () {
+          const active = document.querySelector(".desktop-nav a.active");
+
+          moveIndicator(active);
+        });
+      });
+    </script>
+    <script>
+      /* =====================================================
+   DSD + DCIIM COURSE SYSTEM
+===================================================== */
+      document.addEventListener("DOMContentLoaded", function () {
+        const instituteButtons = document.querySelectorAll(
+          ".institute-logo-btn",
+        );
+        const institutePanels = document.querySelectorAll(
+          ".institute-course-panel",
+        );
+        const navbarLogos = document.querySelectorAll(".navbar-institute-logo");
+
+        function resetPanel(panel) {
+          if (!panel) return;
+          const buttons = panel.querySelectorAll(".course-category-btn");
+          const contents = panel.querySelectorAll(".course-category-content");
+          const search = panel.querySelector(".course-search input");
+
+          buttons.forEach((btn) => btn.classList.remove("active"));
+          contents.forEach((content) => {
+            content.classList.remove("active", "search-result-active");
+            content
+              .querySelectorAll(".professional-course-card")
+              .forEach((card) => card.classList.remove("search-hidden"));
+          });
+
+          const firstButton = buttons[0];
+          if (firstButton) {
+            firstButton.classList.add("active");
+            const firstContent = panel.querySelector(
+              `.course-category-content[data-content="${firstButton.dataset.category}"]`,
+            );
+            if (firstContent) firstContent.classList.add("active");
+          }
+          if (search) search.value = "";
+        }
+
+        function selectInstitute(institute) {
+          instituteButtons.forEach((button) =>
+            button.classList.toggle(
+              "active",
+              button.dataset.institute === institute,
+            ),
+          );
+          institutePanels.forEach((panel) =>
+            panel.classList.toggle("active", panel.dataset.panel === institute),
+          );
+          resetPanel(
+            document.querySelector(
+              `.institute-course-panel[data-panel="${institute}"]`,
+            ),
+          );
+        }
+
+        instituteButtons.forEach((button) =>
+          button.addEventListener("click", function () {
+            selectInstitute(this.dataset.institute);
+          }),
+        );
+
+        navbarLogos.forEach((logo) =>
+          logo.addEventListener("click", function (event) {
+            event.preventDefault();
+            selectInstitute(this.dataset.institute);
+            const courses = document.getElementById("courses");
+            if (courses)
+              courses.scrollIntoView({ behavior: "smooth", block: "start" });
+          }),
+        );
+
+        document.querySelectorAll(".course-category-btn").forEach((button) =>
+          button.addEventListener("click", function () {
+            const panel = this.closest(".institute-course-panel");
+            if (!panel) return;
+            panel
+              .querySelectorAll(".course-category-btn")
+              .forEach((btn) => btn.classList.remove("active"));
+            this.classList.add("active");
+            panel
+              .querySelectorAll(".course-category-content")
+              .forEach((content) =>
+                content.classList.remove("active", "search-result-active"),
+              );
+            const selectedContent = panel.querySelector(
+              `.course-category-content[data-content="${this.dataset.category}"]`,
+            );
+            if (selectedContent) selectedContent.classList.add("active");
+            const search = panel.querySelector(".course-search input");
+            if (search) search.value = "";
+            panel
+              .querySelectorAll(".professional-course-card")
+              .forEach((card) => card.classList.remove("search-hidden"));
+          }),
+        );
+
+        document.querySelectorAll(".course-search input").forEach((input) =>
+          input.addEventListener("input", function () {
+            const panel = this.closest(".institute-course-panel");
+            if (!panel) return;
+            const query = this.value.toLowerCase().trim();
+            const contents = panel.querySelectorAll(".course-category-content");
+            const buttons = panel.querySelectorAll(".course-category-btn");
+
+            if (!query) {
+              buttons.forEach((btn) => btn.classList.remove("active"));
+              contents.forEach((content) => {
+                content.classList.remove("active", "search-result-active");
+                content
+                  .querySelectorAll(".professional-course-card")
+                  .forEach((card) => card.classList.remove("search-hidden"));
+              });
+              const firstButton = buttons[0];
+              if (firstButton) {
+                firstButton.classList.add("active");
+                const firstContent = panel.querySelector(
+                  `.course-category-content[data-content="${firstButton.dataset.category}"]`,
+                );
+                if (firstContent) firstContent.classList.add("active");
+              }
+              return;
+            }
+
+            buttons.forEach((btn) => btn.classList.remove("active"));
+            contents.forEach((content) => {
+              let hasResult = false;
+              content
+                .querySelectorAll(".professional-course-card")
+                .forEach((card) => {
+                  const match = card.textContent.toLowerCase().includes(query);
+                  card.classList.toggle("search-hidden", !match);
+                  if (match) hasResult = true;
+                });
+              content.classList.toggle("active", hasResult);
+              content.classList.toggle("search-result-active", hasResult);
+            });
+          }),
+        );
+
+        document.querySelectorAll(".professional-course-link").forEach((link) =>
+          link.addEventListener("click", function () {
+            const card = this.closest(".professional-course-card");
+            if (!card) return;
+            const course = card.querySelector("h4");
+            if (!course) return;
+            const message = `Hello, I want to enquire about the ${course.textContent.trim()} course.`;
+            this.href = `https://wa.me/918527023462?text=${encodeURIComponent(message)}`;
+            this.target = "_blank";
+          }),
+        );
+
+        selectInstitute("dsd");
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const track = document.querySelector(".reviews-track");
+
+        if (!track) {
+          return;
+        }
+
+        /* ============================================
+       DUPLICATE ALL REVIEWS
+       This creates the second set needed
+       for the infinite carousel.
+    ============================================ */
+
+        const originalReviews = Array.from(
+          track.querySelectorAll(".review-card"),
+        );
+
+        originalReviews.forEach(function (review) {
+          const clone = review.cloneNode(true);
+
+          clone.setAttribute("aria-hidden", "true");
+
+          track.appendChild(clone);
+        });
+      });
+    </script>
+    
   </body>
 </html>
