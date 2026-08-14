@@ -130,6 +130,16 @@
           </a>
 
           <button
+    type="button"
+    class="theme-toggle"
+    id="themeToggle"
+    aria-label="Switch to dark mode"
+    title="Switch theme"
+>
+    <i class="fa-solid fa-moon"></i>
+</button>
+
+          <button
             type="button"
             class="mobile-toggle"
             
@@ -140,6 +150,8 @@
           </button>
         </div>
       </div>
+
+      
 
       <!-- MOBILE MENU -->
 
@@ -903,7 +915,7 @@
               </div>
               <span class="professional-tag">TEACHER TRAINING</span>
               <h4>CTT</h4>
-              <p>Teacher training focused on classroom and teaching skills.</p>
+              <p> Computer Teacher training focused on classroom and teaching skills.</p>
               <a href="#contact" class="professional-course-link"
                 >Enquire Now <i class="fa-solid fa-arrow-right"></i
               ></a>
@@ -1316,7 +1328,7 @@
               <span class="professional-tag">6 MONTHS</span>
               <h4>DFA</h4>
               <p>
-                Diploma-focused professional computer and application training.
+                Diploma In Finance And Accounting professional computer and application training.
               </p>
               <div class="course-duration">
                 <i class="fa-regular fa-clock"></i>
@@ -1349,7 +1361,7 @@
               </div>
               <span class="professional-tag">3 MONTHS</span>
               <h4>DCP</h4>
-              <p>Practical computer and digital skills training.</p>
+              <p> Diploma In Computer Programming computer and digital skills training.</p>
               <div class="course-duration">
                 <i class="fa-regular fa-clock"></i>
                 3 Months
@@ -1365,7 +1377,7 @@
               </div>
               <span class="professional-tag">18 MONTHS</span>
               <h4>DCTT</h4>
-              <p>Professional computer and technical training program.</p>
+              <p> Diploma In Computer Teacher Training Professional computer and technical training program.</p>
               <div class="course-duration">
                 <i class="fa-regular fa-clock"></i>
                 18 Months
@@ -3893,6 +3905,68 @@
         window.addEventListener("resize", handleMobileReviews);
       });
     </script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const themeToggle = document.getElementById("themeToggle");
+
+    if (!themeToggle) return;
+
+    const icon = themeToggle.querySelector("i");
+
+    /* Load saved theme */
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-theme");
+
+        icon.classList.remove("fa-moon");
+        icon.classList.add("fa-sun");
+
+        themeToggle.setAttribute(
+            "aria-label",
+            "Switch to light mode"
+        );
+    }
+
+    /* Toggle theme */
+    themeToggle.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark-theme");
+
+        const isDark =
+            document.body.classList.contains("dark-theme");
+
+        if (isDark) {
+
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+
+            themeToggle.setAttribute(
+                "aria-label",
+                "Switch to light mode"
+            );
+
+            localStorage.setItem("theme", "dark");
+
+        } else {
+
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+
+            themeToggle.setAttribute(
+                "aria-label",
+                "Switch to dark mode"
+            );
+
+            localStorage.setItem("theme", "light");
+        }
+
+    });
+
+});
+</script>
     
   
 
